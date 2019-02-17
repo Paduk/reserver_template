@@ -1,0 +1,19 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>    
+    <title>Scene 1.</title>
+    <meta charset="utf-8">
+	<link rel="icon" href="https://www.w3schools.com/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+</head>
+
+<body>
+{% block content %}{% endblock %}
+    <script type="text/javascript" src="{% static 'js/jquery-3.3.1.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/table.js' %}"></script>
+</body>
+
+</html>
